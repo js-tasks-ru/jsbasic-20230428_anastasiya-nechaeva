@@ -1,3 +1,8 @@
 function factorial(n) {
-  // ваш код...
+  if (n > 1) {
+    return n * factorial(--n);
+  }
+  else
+    return 1;
 }
+
