@@ -5,5 +5,5 @@ function sumSalary(salaries) {
     if(Number.isFinite(salaries[key]))
       sum += salaries[key];
    }
-   return sum == null ? 0 : sum;
+   return sum;
 }
